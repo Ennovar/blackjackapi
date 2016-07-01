@@ -12,6 +12,9 @@ module.exports = {
   deal: function() {
     return this.deck.getCards(2)
   },
+  hit: function() {
+    return this.deck.getCards(1)
+  },
   attributes: {
 
   }

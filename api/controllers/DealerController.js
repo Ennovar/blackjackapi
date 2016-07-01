@@ -13,5 +13,8 @@ module.exports = {
 	},
 	start: function(req, res) {
 		return res.send("starting game")
+	},
+	hit: function(req, res) {
+		return res.send(Dealer.hit())
 	}
 };
